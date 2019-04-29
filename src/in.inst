@@ -19,7 +19,7 @@ end() {
 
 continue() {
   show_question "\nDo you want to continue? (Y)es, (N)o : \n"
-  read INPUT
+  INPUT="Y"
   case $INPUT in
     [Yy]* ) ;;
     [Nn]* ) end;;
@@ -65,8 +65,6 @@ install() {
   
   # Copying files
   cp -rf Bibata_Oil $DEST_DIR
-  cp -rf Bibata_Ice $DEST_DIR
-  cp -rf Bibata_Amber $DEST_DIR
   chmod -R 755 $DEST_DIR/Bibata_*
 
 
@@ -80,7 +78,7 @@ remove() {
   # PREVIEW
 
   # Show installation directory
-  if [[ -d $DEST_DIR/Bibata_Oil || -d $DEST_DIR/Bibata_Ice ]]; then
+  if [[ -d $DEST_DIR/Bibata_Oil ]]; then
     echo -e "\nBibata Cursor Theme installed in:\n"
     show_dir "\t$DEST_DIR"
     if [ "$UID" -eq "$ROOT_UID" ]; then
@@ -103,8 +101,6 @@ remove() {
 
   # Removing files
   rm -rf $DEST_DIR/Bibata_Oil
-  rm -rf $DEST_DIR/Bibata_Ice
-  rm -rf $DEST_DIR/Bibata_Amber
 
   echo "Removing complete!"
   echo "I hope to see you soon."
@@ -112,7 +108,7 @@ remove() {
 
 main() {
   show_question "What you want to do: (I)nstall, (R)emove : \n"
-  read INPUT
+  INPUT="I"
   case $INPUT in
     [Ii]* ) install;;
     [Rr]* ) remove;;
