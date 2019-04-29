@@ -20,66 +20,12 @@
 
 <br />
 
-## How to get Project Message and Updates
-
-I'll release messages on
- * [Google+](https://plus.google.com/+KaizKhatri)
- * [Twitter](https://twitter.com/ful1e5_)
-
-
-
-## Table Of Contents
-<!--ts-->
-   * [How to get Project Message and Updates](#how-to-get-project-message-and-updates)
-   * [Table Of Contents](#table-of-contents)
-   * [Donate](#donate)
-      * [One-time donation](#one-time-donation)
-   * [What is Bibata](#what-is-bibata)
-   * [Dependencies](#dependencies)
-      * [Build dependencies](#build-dependencies)
-   * [Installation](#installation)
-      * [Build From Source Code](#build-from-source-code)
-      * [Package](#package)
-   * [Quick Fixes](#quick-fixes)
-      * [Inherits Problem](#inherits-problem)
-   * [Work in Progress](#work-in-progress)
-   * [Gallery](#gallery)
-   * [Bugs](#bugs)
-   * [License & Terms](#license-and-terms)
-   * [Getting help](#getting-help)
-   * [Contributions & Suggestions](#contributions-and-suggestions)
-   * [Looking For Another Bibata](#looking-for-another-bibata)
-      * [Bibata Extra](#bibata-extra)
-      * [Bibata Adapta](#bibata-adapta)
-   * [Contributors](#contributors)
-<!--te-->
-
-## Donate
-
-**Who Am I?**
-
-I'm a _ComputerScienceStudent_, _GraphicsDesigner_ and _OpenSourceEnthusiast_. I mostly do  _ComputerGraphics_ stuffs and love them 💕
-
-Currently I'm making lots of Linux Themes to Improve [Linux](https://en.wikipedia.org/wiki/Linux) Experience, if you enjoy my works please consider making a donation. My ultimate goal is to become a full-time open-source ninja.
-
-### One-time donation
-
-<p align="center">
-<a  href="https://www.paypal.me/kaizkhatri"><img title="Become Kaiz's Paypal" width=47% src="https://www.paypalobjects.com/webstatic/mobile/hob/web/pp_here_flat.png"></a>
-</br>
-<sub>My PayPal Email : kaizmandhu at google's mail</sub>
-</p>
-
-
-
 ## What is Bibata
 
 |      Name      |     Description     |
 | :-----------:  | :------------------ |
 |     Bibata     | Bibata is **OpenSource** ,Compact and Material Designed Cursor set.This project masterelop for improve ```Linux``` Experience and Feel _openness_ in ```OpenSoftwareWorld```.|
 |   Bibata Oil   | Dark  Theme  |
-|   Bibata ice   | Light Theme  |
-|   Bibata Amber | Yellowish-Orange Theme |
 
 
 ## Dependencies
@@ -133,50 +79,6 @@ Currently I'm making lots of Linux Themes to Improve [Linux](https://en.wikipedi
      $rm -r ~/.icons/Bibata_*
      #Note : Your replace * with flavor Name to remove individual
      ```
-  ### Packages
-
-  Arch Linux users can install from the [AUR](https://aur.archlinux.org/packages/bibata-cursor-theme/) currently maintained by @Shatur.
-
-  **AUR Note**: If you're having trouble with the AUR packages please submit a request to the current package maintainer which is currently maintained by _@shatur_ before creating an issue.
-
-  Arch Linux users can install the theme collection from the AUR repository by using the yaourt or packer commands below.
-
-**Yaourt commands:**
-```
-yaourt -S bibata-cursor-theme
-
-```
-**Packer commands:**
-```
-packer -S bibata-cursor-theme
-
-```
-## Quick Fixes
-##### *Inherits* Problem
-issue [#8](https://github.com/KaizIqbal/Bibata_Cursor/issues/8)
-
-edit ```/usr/share/icons/default/index.theme``` and replace your cursor.
-
-     [Icon Theme]
-     Inherits=Adwaita
-
-edited to
-
-     [Icon Theme]
-     Inherits=Bibata_Ice                      #replace here
-## Work in progress
-
-| Completed Tasks | ![](https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png?raw=true)| In Progress Tasks |![](https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-off.png?raw=true)|
-| :------------- |--- |:------------- |---|
-| Add Bibata Cursor SET |![](https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png?raw=true) | Cursor Location Fixes |98%
-| Added GPL v3 Licences |![](https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png?raw=true)  | Documantaion |97%
-|Added Light Flavor|![](https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png?raw=true) | Debain Package  |43%
-|Added Amber Flavor| ![](https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png?raw=true) | Ubuntu Repository | 26%
-|Added CODE OF CONDUCT|![](https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png?raw=true) | **Bibata Square**  | 1%
-|Added To [AUR](https://aur.archlinux.org/packages/bibata-cursor-theme/)|![](https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png?raw=true) |Code Migration to ```python``` | **...**
-|Bibata Adapta | ![](https://upload.wikimedia.org/wikipedia/commons/7/78/Breezeicons-emotes-22-face-smile-grin.svg) |  Port to ```Window```  | **...**
-|Added [Bbata Extra](https://github.com/KaizIqbal/Bibata_Extra_Cursor/releases) | ![](https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png?raw=true) |**Bibata MARVEL** | **...**
-
 
 ## Gallery
 
@@ -188,11 +90,6 @@ edited to
 
 <p align="center"><img title="Bibata Oil" src="https://github.com/KaizIqbal/Bibata_Cursor/blob/master/image/Bibata_Oil.png">
 </br><sub>Bibata Oil</sub></p>
-
-## Bugs
-
-Bugs should be reported [here](https://github.com/KaizIqbal/Bibata_Cursor/issues) on the Github issues page.
-
 
 ## License and Terms
 
@@ -210,16 +107,6 @@ OR
 
 You give suggestions on _slack_ @ [#bibata-cursor](https://kaizkhatri.slack.com/messages/CCK84QYQ4/)
 ###
-
-## Looking For Another Bibata
-
-###### Bibata Extra
-
-Bibata Extra **</>** and maintained by @KaizIqbal you find it at [GitHub](https://github.com/KaizIqbal/Bibata_Extra_Cursor)
-
-###### Bibata Adapta
-
-Bibata Adapta **</>** and maintained by @cscs you find it at [Gitlab](https://gitlab.com/cscs/Bibata_AdaptaBreath_Cursors)
 
 ## Contributors
 Thanks goes to these wonderful people
